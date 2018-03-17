@@ -1,7 +1,6 @@
 # Notodolist
 
-One Paragraph of project description goes here
-
+The todolist that reminds you what you haven't done today.
 
 ### Prerequisites
 
@@ -11,9 +10,6 @@ What things you need to install the software and how to install them
 * NPM (atleast version 5.7.1)
 * React core libraries (atleast version 16.2.0)
 * React-router-dom (atleast version 4.2.2)
-
-### Installing
-
 
 ## Running tests
 
@@ -32,13 +28,9 @@ The included library React includes a deployment mode , this will minify the pro
 
 Please read [CONTRIBUTING.md](https://gist.github.com/-Fish/todolist) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Robert Fish** - *Head of Engineering* - [Robert-fish](https://github.com/Robert-Fish)
+* **Robert Fish** - *Head of Development* - [Robert-fish](https://github.com/Robert-Fish)
 
 See also the list of [contributors](https://github.com/notodolist/contributors) who participated in this project.
 
