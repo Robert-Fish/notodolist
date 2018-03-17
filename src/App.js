@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Navbar from  './Components/Navbar';
+import CustomNavbar from  './Components/Navbar';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './Components/Home';
 import './App.css';
+import About from './Components/About';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      My app
-      <Navbar />
+      <Router>
+      <div>
+        <CustomNavbar />
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About}/>
       </div>
+    </Router>
     );
   }
 }
